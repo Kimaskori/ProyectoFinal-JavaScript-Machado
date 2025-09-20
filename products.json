@@ -1,0 +1,50 @@
+[
+  {
+    "id": "p1",
+    "title": "Auriculares inalámbricos",
+    "price": 45.99,
+    "image": "https://sampler.com.uy/imgs/productos/productos34_105371.jpg",
+    "stock": 10,
+    "description": "Auriculares bluetooth, autonomía 20h."
+  },
+  {
+    "id": "p2",
+    "title": "Cargador rápido USB-C 67W",
+    "price": 19.5,
+    "image": "https://www.compulandia.com.py/wp-content/uploads/2025/06/d9JkpbzUYPxgfDTdUsIEgkkKNvqcKXWdC670mFbO.jpg",
+    "stock": 20,
+    "description": "Cargador USB-C 67W, compatible con la mayoría de celulares."
+  },
+  {
+    "id": "p3",
+    "title": "Protector de pantalla templado",
+    "price": 8.99,
+    "image": "https://funtec.com.uy/wp-content/uploads/2020/07/H4d8dae6e39574ac6a87553069177dadbv.jpg",
+    "stock": 50,
+    "description": "Vidrio templado 9H, fácil colocación."
+  },
+  {
+    "id": "p4",
+    "title": "Cable trenzado USB-C",
+    "price": 6.25,
+    "image": "https://m.media-amazon.com/images/I/61esvi3LCnL._UF1000,1000_QL80_.jpg",
+    "stock": 40,
+    "description": "Cable resistente 1.2m."
+  },
+  {
+    "id": "p5",
+    "title": "Mouse de oficina",
+    "price": 5,
+    "image": "https://www.venex.com.ar/products_images/1601917920_unnamed.jpg",
+    "stock": 40,
+    "description": "Mouse Genius perfecto para oficina."
+  },
+  {
+    "id": "p6",
+    "title": "Guantelete del infinito",
+    "price": 999999999999,
+    "image": "https://images.cults3d.com/NFAC__OzGwVtZszgNOYkfb7wiOU=/516x516/filters:no_upscale()/https://fbi.cults3d.com/uploaders/12510347/illustration-file/4d136493-2370-4b5d-9280-8205903435ea/Thanos_Glove_3Demon-01.jpg",
+    "stock": 40,
+    "description": "Guantelete del infinito REAL."
+  }
+]

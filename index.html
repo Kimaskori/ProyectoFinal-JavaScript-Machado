@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ProyectoFinal - Simulador Ecommerce</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Simulador Ecommerce</h1>
+    <div class="cart-summary">
+      <button id="btn-open-cart">Carrito (<span id="cart-count">0</span>)</button>
+    </div>
+  </header>
+  <main>
+    <section id="product-list" class="product-grid" aria-live="polite">
+    </section>
+  </main>
+  <aside id="cart-panel" class="cart-panel hidden" aria-hidden="true">
+    <button id="btn-close-cart" class="close-btn">X</button>
+    <h2>Tu Carrito</h2>
+    <div id="cart-items"></div>
+    <div class="cart-footer">
+      <div>Total: $<span id="cart-total">0.00</span></div>
+      <button id="btn-checkout" class="primary">Pagar</button>
+    </div>
+  </aside>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
