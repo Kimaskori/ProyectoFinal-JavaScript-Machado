@@ -1,5 +1,4 @@
-// app.js - Lógica del simulador Ecommerce
-// Variables y estado
+
 const productListEl = document.getElementById('product-list');
 const cartCountEl = document.getElementById('cart-count');
 const btnOpenCart = document.getElementById('btn-open-cart');
@@ -289,7 +288,7 @@ btnCloseCart.addEventListener('click', () => {
 });
 btnCheckout.addEventListener('click', handleCheckout);
 
-// Carga de productos desde JSON (asincrónico)
+
 async function loadProducts() {
   try {
     const res = await fetch('products.json');
@@ -302,5 +301,5 @@ async function loadProducts() {
   }
 }
 
-// Ejecutar
+
 loadProducts();
